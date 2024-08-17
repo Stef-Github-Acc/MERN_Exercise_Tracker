@@ -10,7 +10,7 @@ I started by creating a new project directory and set up the structure for both 
 I initialized a Node.js project in the backend directory and installed dependencies like Express for the server framework, Mongoose for MongoDB interactions, and other essentials.
 
 **Frontend Development:**
-I used `create-react-app` to quickly set up my React project in the frontend directory. This provided a solid foundation for building the user interface.
+I used `npm create vite@latest exercises_ui -- --template react` to quickly set up my React project. This provided the foundation for building the user interface.
 
 **Connecting the Frontend and Backend:**
 I made sure that my React app could communicate with the Express server by setting up appropriate API routes and handling requests to the backend.
