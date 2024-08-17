@@ -1,4 +1,4 @@
-# MERN_Exercise_Tracker
+# MERN Exercise Tracker
 
 **Project Overview:**
 I used the MERN stack to create a Single Page Application (SPA) that tracked exercises completed by a user. For the frontend, I used React to build the UI. On the backend, I wrote a REST API using Node.js and Express to handle the server-side logic. MongoDB was my choice for persistence, storing user data and exercise records.
