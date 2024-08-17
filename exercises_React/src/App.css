@@ -1,0 +1,115 @@
+body {
+  background-color: #ADD8E6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 800px;
+  background-color: #F5DEB3;
+  border-radius: 8px;
+}
+
+header {
+  background-color: #F5DEB3;
+  padding: 20px;
+  border-bottom: 2px solid #8B4513;
+  text-align: center;
+}
+
+header h1 {
+  color: #006400;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  color: #006400;
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #F5DEB3;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #006400;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #8B4513;
+}
+
+main {
+  padding: 20px;
+  background-color: #c4eab8b0;
+}
+
+.exercise-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.exercise-table th,
+.exercise-table td {
+  border: 1px solid #006400;
+  padding: 10px;
+  text-align: center;
+}
+
+.exercise-table th {
+  background-color: #F5DEB3;
+  color: #006400;
+  font-weight: bold;
+}
+
+.exercise-table td {
+  background-color: #c4eab8b0;
+  color: #006400;
+}
+
+.icon {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.edit-icon:hover {
+  color: #8B4513;
+}
+
+.delete-icon:hover {
+  color: #FF0000;
+}
+
+footer {
+  background-color: #F5DEB3;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #8B4513;
+}
+
+footer p {
+  margin: 0;
+  color: #006400;
+  font-size: 1em;
+}

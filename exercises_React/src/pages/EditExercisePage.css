@@ -1,0 +1,48 @@
+.edit-exercise-page {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.edit-exercise-page h1 {
+  color: #006400;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.edit-exercise-table th {
+  background-color: #F5DEB3;
+  color: #006400;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #006400;
+}
+
+.edit-exercise-page input,
+.edit-exercise-page select {
+  width: 100%;
+  border: 2px solid #006400;
+  border-radius: 4px;
+  font-size: 1em;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffbabaaf;
+  color: #006400;
+}
+
+.submit-button {
+  background-color: #006400;
+  color: rgba(255, 255, 255, 0.734);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #004d00;
+}
